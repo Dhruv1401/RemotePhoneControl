@@ -1,0 +1,13 @@
+## templates/index.html
+<!DOCTYPE html>
+<html>
+<head><title>Termux Control Panel</title></head>
+<body>
+    <h1>🛰️ Termux Control Panel</h1>
+    <ul>
+        {% for cmd in commands %}
+        <li><a href="/run/{{ cmd }}">{{ cmd }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html> 
