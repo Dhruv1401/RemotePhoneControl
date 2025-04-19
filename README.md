@@ -13,7 +13,7 @@ Control your Android phone wirelessly using Termux + SSH + Python + Flask. No ro
 ```bash
 pkg update && pkg upgrade
 pkg install termux-api openssh python git -y
-git clone https://github.com/yourusername/RemoteTermuxController
+git clone https://github.com/Dhruv1401/RemoteTermuxController
 cd RemoteTermuxController
 termux-setup-storage
 passwd  # Set SSH password
@@ -77,4 +77,4 @@ Then open `http://localhost:5000` or `http://<your-pc-ip>:5000` from your browse
 
 ---
 
-Made with ❤️ by Dhruv. Now go hack the world—responsibly!
+Made with ❤️ by Dhruv1401 and ChatGPT.
